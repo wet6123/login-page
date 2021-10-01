@@ -1,0 +1,75 @@
+img {
+  display: block;
+  margin: 70px auto;
+}
+
+#login-form {
+  position: relative;
+  margin: 50px auto;
+  width: 90%;
+  max-width: 650px;
+  min-width: 450px;
+
+  justify-content: center;
+  align-items: center;
+
+  background: #ffffff;
+  border: 1px solid #c6c6c6;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 8px rgba(68, 68, 68, 0.04);
+  border-radius: 6px;
+  padding: 27px 25px 14px 25px;
+}
+
+.input_row {
+  position: relative;
+  padding: 17px 18px 17px 19px;
+
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 2px 6px rgba(68, 68, 68, 0.08));
+}
+
+#id_line {
+  border-radius: 10px 10px 0px 0px;
+}
+#pw_line {
+  border-top: none;
+  border-radius: 0px 0px 10px 10px;
+}
+
+#idInput {
+  height: 30px;
+  width: 95%;
+  border: none;
+  margin-left: 15px;
+  font-size: 17px;
+  outline: none;
+}
+
+#pwInput {
+  height: 30px;
+  width: 95%;
+  border: none;
+  margin-left: 15px;
+  font-size: 17px;
+  outline: none;
+}
+
+#button {
+  position: relative;
+  width: 100%;
+
+  padding: 17px 18px 17px 19px;
+  margin-top: 20px;
+
+  border: 1px solid #dadada;
+  background-color: #03c75a;
+
+  color: aliceblue;
+  font: bold 20px sans-sef;
+
+  box-sizing: border-box;
+  filter: drop-shadow(0px 2px 6px rgba(68, 68, 68, 0.08));
+  border-radius: 10px 10px;
+}
