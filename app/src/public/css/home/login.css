@@ -21,7 +21,7 @@ img {
   padding: 27px 25px 14px 25px;
 }
 
-.input_row {
+.input-row {
   position: relative;
   padding: 17px 18px 17px 19px;
 
@@ -30,10 +30,10 @@ img {
   filter: drop-shadow(0px 2px 6px rgba(68, 68, 68, 0.08));
 }
 
-#id_line {
+#id-line {
   border-radius: 10px 10px 0px 0px;
 }
-#pw_line {
+#pw-line {
   border-top: none;
   border-radius: 0px 0px 10px 10px;
 }

@@ -30,6 +30,9 @@
               placeholder="아이디"
             />
           </div>
+          <div id="name-line" class="input-row">
+            <input id="idInput" required type="text" placeholder="이름" />
+          </div>
           <div id="pw-line" class="input-row">
             <input
               id="pwInput"
@@ -39,16 +42,25 @@
               placeholder="비밀번호"
             />
           </div>
+          <div id="pw-confirm-line" class="input-row">
+            <input
+              id="pwInput"
+              required
+              maxlength="15"
+              type="password"
+              placeholder="비밀번호 확인"
+            />
+          </div>
           <div id="button-line">
             <input
               id="button"
               type="submit"
-              value="로그인"
+              value="회원가입"
               style="cursor: pointer"
             />
           </div>
           <p class="message">
-            계정이 없으신가요? <a href="/register">여기를 눌러</a> 생성하세요.
+            <a href="/login">로그인</a>
           </p>
         </form>
       </div>
