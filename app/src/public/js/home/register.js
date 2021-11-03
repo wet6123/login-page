@@ -1,11 +1,10 @@
 "use strict";
 
 const id = document.querySelector("#idInput"),
-  name = document.querySelector("#name"),
+  name = document.querySelector("#nameInput"),
   pw = document.querySelector("#pwInput"),
-  confirmPw = document.querySelector("#confirm-pw");
-
-registerButton = document.querySelector("#button");
+  confirmPw = document.querySelector("#confirm-pw"),
+  registerButton = document.querySelector("#button");
 
 registerButton.addEventListener("click", register);
 

@@ -38,16 +38,10 @@ img {
   border-radius: 0px 0px 10px 10px;
 }
 
-#idInput {
-  height: 30px;
-  width: 95%;
-  border: none;
-  margin-left: 15px;
-  font-size: 17px;
-  outline: none;
-}
-
-#pwInput {
+#idInput,
+#nameInput,
+#pwInput,
+#confirm-pw {
   height: 30px;
   width: 95%;
   border: none;
